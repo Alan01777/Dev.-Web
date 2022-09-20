@@ -1,3 +1,9 @@
+#titulo{
+    text-align: center;
+}
+body{
+    background-color: #ADD8E6;
+}
 form {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
