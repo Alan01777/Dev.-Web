@@ -32,15 +32,3 @@ fieldset {
 .botao {
     border-radius: 2em;
 }
-.form-container {
-    display: flex;
-    justify-content: center;
-}
-
-.form-container form {
-    width: '25%';
-}
-label{
-    display: block;
-    float: left;
-}
