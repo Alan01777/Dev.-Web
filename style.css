@@ -1,5 +1,46 @@
-body{
-    background-color: blue;
+main {
     text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+#titulo {
+    text-align: center;
+}
+
+body {
+    margin: 1%;
     text-shadow: 2em;
+    background-color: #E6E6FA;
+    line-height: 1.5;
+}
+
+form {
+    display: inline-block;
+}
+
+input,
+button,
+textarea {
+    border-radius: 2px;
+}
+
+fieldset {
+    border: 0;
+}
+
+.botao {
+    border-radius: 2em;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form {
+    width: '25%';
+}
+label{
+    display: block;
+    float: left;
 }
