@@ -26,8 +26,7 @@ body {
     background-image: url(fundo.jpeg);
     background-size: cover;
     color: white;
-    text-shadow: 1px;
-}
+    text-shadow: 1px 1px 2px black;}
 
 input,
 select,
