@@ -52,3 +52,7 @@ fieldset.grupo .campo {
 .campo{
     font-size: 1.2em;
 }
+.grupo-total{
+    border: 0;
+    opacity: 0.8;
+}

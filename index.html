@@ -10,103 +10,107 @@
 </head>
 
 <body>
-    <div id="titulo">
-        <h1>Cadastro de Alunos</h1>
-        <p>Preencha os campos abaixo</p>
-    </div>
-    <form method="post">
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
-            </div>
+    <fieldset class="grupo-total">
 
-            <div class="campo">
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+        <div id="titulo">
+            <h1>Cadastro de Alunos</h1>
+            <p>Preencha os campos abaixo</p>
+        </div>
+        <form method="post">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
                 </div>
-        </fieldset>
 
-        <div class="campo">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-        </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
 
-        <div class="campo">
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha">
-        </div>
-
-
-        <div class="campo">
-            <label for="matricula">Matrícula:</label>
-            <input type="text" name="matricula" id="matricula">
-        </div>
-
-        <div class="campo">
-            <label for="curso">Curso:</label>
-            <input type="text" name="curso" id="curso">
-        </div>
-
-        <div class="campo">
-            <label for="data-nascimento">Data de nascimento</label>
-            <input type="date" name="data-nascimento" id="data-nascimento">
-        </div>
-
-        <div class="campo">
-            <label for="area-aplicacao">Área de aplicação:</label>
-            <select name="area-aplicacao" id="area-aplicacao">
-                <option value="back-end">Back-end</option>
-                <option value="front-end">Front-end</option>
-                <option value="fullstack">Fullstack</option>
-            </select>
-        </div>
-
-        <fieldset class="grupo">
-            <div class="check">
-                <legend>Tecnologias dominadas:</legend>
-                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HMTL">
-                <label for="tecnologia1">HTML</label>
-
-                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
-                <label for="tecnologia2">CSS</label>
-
-                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JAVASCRIPT">
-                <label for="tecnologia3">JAVASCRIPT</label>
-
-                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
-                <label for="tecnologia4">PHP</label>
-
-                <input type="checkbox" name="tecnologia5" id="tecnologia5" value="PYTHON">
-                <label for="tecnologia5">PYTHON</label>
-
-                <input type="checkbox" name="tecnologia6" id="tecnologia6" value="C/C++">
-                <label for="tecnologia6">C/C++</label>
-
-                <input type="checkbox" name="tecnologia7" id="tecnologia7" value="JAVA">
-                <label for="tecnologia7">JAVA</label>
-            </div>
-        </fieldset>
-        <div class="check">
-            <legend>Senioridade:</legend>
-            <label>
-                <input type="radio" name="senioridade" id="junior" value="junior">Junior
-            </label>
-            <label>
-                <input type="radio" name="senioridade" id="pleno" value="pleno">Pleno
-            </label>
-            <label>
-                <input type="radio" name="senioridade" id="senior" value="senior">Sênio
-            </label>
-        </div>
-        <fieldset class="grupo">
             <div class="campo">
-                <legend>Conte-nos sobre sua experiência:</legend>
-                <textarea name="experiencia" id="experiencia" cols="60" rows="10"></textarea>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
             </div>
-        </fieldset>
-        <button type="submit" class="botao">Enviar</button>
-    </form>
+
+            <div class="campo">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+
+
+            <div class="campo">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" name="matricula" id="matricula">
+            </div>
+
+            <div class="campo">
+                <label for="curso">Curso:</label>
+                <input type="text" name="curso" id="curso">
+            </div>
+
+            <div class="campo">
+                <label for="data-nascimento">Data de nascimento</label>
+                <input type="date" name="data-nascimento" id="data-nascimento">
+            </div>
+
+            <div class="campo">
+                <label for="area-aplicacao">Área de aplicação:</label>
+                <select name="area-aplicacao" id="area-aplicacao">
+                    <option value="back-end">Back-end</option>
+                    <option value="front-end">Front-end</option>
+                    <option value="fullstack">Fullstack</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div class="check">
+                    <legend>Tecnologias dominadas:</legend>
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HMTL">
+                    <label for="tecnologia1">HTML</label>
+
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                    <label for="tecnologia2">CSS</label>
+
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JAVASCRIPT">
+                    <label for="tecnologia3">JAVASCRIPT</label>
+
+                    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
+                    <label for="tecnologia4">PHP</label>
+
+                    <input type="checkbox" name="tecnologia5" id="tecnologia5" value="PYTHON">
+                    <label for="tecnologia5">PYTHON</label>
+
+                    <input type="checkbox" name="tecnologia6" id="tecnologia6" value="C/C++">
+                    <label for="tecnologia6">C/C++</label>
+
+                    <input type="checkbox" name="tecnologia7" id="tecnologia7" value="JAVA">
+                    <label for="tecnologia7">JAVA</label>
+                </div>
+            </fieldset>
+            <div class="check">
+                <legend>Senioridade:</legend>
+                <label>
+                    <input type="radio" name="senioridade" id="junior" value="junior">Junior
+                </label>
+                <label>
+                    <input type="radio" name="senioridade" id="pleno" value="pleno">Pleno
+                </label>
+                <label>
+                    <input type="radio" name="senioridade" id="senior" value="senior">Sênio
+                </label>
+            </div>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <legend>Conte-nos sobre sua experiência:</legend>
+                    <textarea name="experiencia" id="experiencia" cols="60" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit" class="botao">Enviar</button>
+        </form>
+
+    </fieldset>
 </body>
 
 </html>
