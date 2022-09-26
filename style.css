@@ -26,6 +26,7 @@ body {
     background-image: url(fundo.jpeg);
     background-size: cover;
     color: white;
+    text-shadow: 1px;
 }
 
 input,
