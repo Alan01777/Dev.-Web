@@ -25,6 +25,7 @@ body {
     font-size: 1em;
     background-image: url(fundo.jpeg);
     background-size: cover;
+    color: white;
 }
 
 input,
@@ -51,7 +52,4 @@ fieldset.grupo .campo {
 }
 .campo{
     font-size: 1.2em;
-}
-.grupo-total{
-
 }
