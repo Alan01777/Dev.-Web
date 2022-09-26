@@ -47,3 +47,6 @@ fieldset.grupo .campo {
     float:  left;
     margin-right: 1em;
 }
+.campo{
+    font-size: medium;
+}
