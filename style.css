@@ -23,7 +23,8 @@ body {
     justify-content: center;
     line-height: 1.5;
     font-size: 1em;
-    background: #FFFFFF url("fundo.jpg") no-repeat right top fixed;
+    background-image: url(fundo.jpg);
+    background-size: cover;
 }
 
 input,
