@@ -25,6 +25,7 @@ body {
     font-size: 1em;
     background-image: url(fundo.jpg);
     background-size: cover;
+    color: blue;
 }
 
 input,
