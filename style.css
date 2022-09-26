@@ -35,7 +35,7 @@ select,
 textarea,
 button {
     border-radius: 2px;
-    box-shadow: 5px 10px black;
+    box-shadow: 1px 1px black;
 }
 
 .campo label {
