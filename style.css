@@ -23,9 +23,8 @@ body {
     justify-content: center;
     line-height: 1.5;
     font-size: 1em;
-    background-image: url(fundo.jpg);
+    background-image: url(fundo.jpeg);
     background-size: cover;
-    color: blue;
 }
 
 input,
