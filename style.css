@@ -57,3 +57,6 @@ fieldset.grupo .campo {
 .campo{
     font-size: 1.2em;
 }
+.botao{
+    width: 20em;  height: 2em;
+}
