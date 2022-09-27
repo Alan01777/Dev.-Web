@@ -60,3 +60,6 @@ fieldset.grupo .campo {
 button{
     width: 10em;  height: 2em;
 }
+input[type=text]{
+    display: block;
+}
