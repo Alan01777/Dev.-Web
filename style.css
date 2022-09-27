@@ -63,3 +63,9 @@ button{
 input[type=text]{
     display: block;
 }
+input[type=email]{
+    display: block;
+}
+input[type=password]{
+    display: block;
+}
