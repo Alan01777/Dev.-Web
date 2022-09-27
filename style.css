@@ -27,7 +27,7 @@ body {
     background-image: url(fundo.jpeg);
     background-size: cover;
     color: white;
-    text-shadow: 1px 1px 2px black;    
+    text-shadow: 1px 1px 2px black;
 }
 
 input,
@@ -48,27 +48,39 @@ textarea,
 button {
     border-radius: 3px;
 }
+
 fieldset.grupo .campo {
-    float:  left;
+    float: left;
     margin-right: 1em;
 }
-.campo{
+
+.campo {
     font-size: 1.2em;
     display: block;
 
 }
-button{
-    width: 10em;  height: 2em;
+
+button {
+    width: 10em;
+    height: 2em;
 }
-input[type=text]{
+
+input[type=text] {
     display: block;
 }
-input[type=email]{
+
+input[type=email] {
     display: block;
 }
-input[type=password]{
+
+input[type=password] {
     display: block;
 }
-input[type=date]{
+
+input[type=date] {
+    display: block;
+}
+
+input[type=checkbox] {
     display: block;
 }
