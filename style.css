@@ -72,6 +72,3 @@ input[type=password]{
 input[type=date]{
     display: block;
 }
-input[type=radio]{
-    display: block;
-}
