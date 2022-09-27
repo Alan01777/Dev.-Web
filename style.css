@@ -40,7 +40,6 @@ button {
 
 .campo label {
     margin-bottom: 0.2em;
-    display: inline-block;
 }
 
 input,
@@ -60,7 +59,4 @@ fieldset.grupo .campo {
 }
 button{
     width: 10em;  height: 2em;
-}
-input{
-    display: block;
 }
