@@ -27,9 +27,7 @@ body {
     background-image: url(fundo.jpeg);
     background-size: cover;
     color: white;
-    text-shadow: 1px 1px 2px black;
-    display: block;
-    
+    text-shadow: 1px 1px 2px black;    
 }
 
 input,
@@ -57,6 +55,8 @@ fieldset.grupo .campo {
 }
 .campo{
     font-size: 1.2em;
+    display: block;
+
 }
 button{
     width: 10em;  height: 2em;
