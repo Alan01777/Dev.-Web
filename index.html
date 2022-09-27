@@ -18,26 +18,18 @@
         </div>
 
         <form method="post">
-
             <div class="campo">
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
-            
 
-            
                 <label for="sobrenome">Sobrenome:</label>
                 <input type="text" name="sobrenome" id="sobrenome">
-            
 
-            
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
-            
 
-            
                 <label for="senha">Senha:</label>
                 <input type="password" name="senha" id="senha">
-            
 
                 <label for="matricula">Matrícula:</label>
                 <input type="text" name="matricula" id="matricula">
@@ -49,7 +41,7 @@
                 <input type="date" name="data-nascimento" id="data-nascimento">
             </div>
 
-            <div class="campo">
+            <div class="check">
                 <label for="area-aplicacao">Área de aplicação:</label>
                 <select name="area-aplicacao" id="area-aplicacao">
                     <option value="back-end">Back-end</option>
@@ -58,31 +50,30 @@
                 </select>
             </div>
 
-            <fieldset class="grupo">
-                <div class="check">
-                    <legend>Tecnologias dominadas:</legend>
-                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HMTL">
-                    <label for="tecnologia1">HTML</label>
+            <div class="check">
+                <legend>Tecnologias dominadas:</legend>
+                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HMTL">
+                <label for="tecnologia1">HTML</label>
 
-                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
-                    <label for="tecnologia2">CSS</label>
+                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                <label for="tecnologia2">CSS</label>
 
-                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JAVASCRIPT">
-                    <label for="tecnologia3">JAVASCRIPT</label>
+                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JAVASCRIPT">
+                <label for="tecnologia3">JAVASCRIPT</label>
 
-                    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
-                    <label for="tecnologia4">PHP</label>
+                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="PHP">
+                <label for="tecnologia4">PHP</label>
 
-                    <input type="checkbox" name="tecnologia5" id="tecnologia5" value="PYTHON">
-                    <label for="tecnologia5">PYTHON</label>
+                <input type="checkbox" name="tecnologia5" id="tecnologia5" value="PYTHON">
+                <label for="tecnologia5">PYTHON</label>
 
-                    <input type="checkbox" name="tecnologia6" id="tecnologia6" value="C/C++">
-                    <label for="tecnologia6">C/C++</label>
+                <input type="checkbox" name="tecnologia6" id="tecnologia6" value="C/C++">
+                <label for="tecnologia6">C/C++</label>
 
-                    <input type="checkbox" name="tecnologia7" id="tecnologia7" value="JAVA">
-                    <label for="tecnologia7">JAVA</label>
-                </div>
-            </fieldset>
+                <input type="checkbox" name="tecnologia7" id="tecnologia7" value="JAVA">
+                <label for="tecnologia7">JAVA</label>
+            </div>
+
             <div class="check">
                 <legend>Senioridade:</legend>
                 <label>
@@ -95,12 +86,12 @@
                     <input type="radio" name="senioridade" id="senior" value="senior">SÊNIOR
                 </label>
             </div>
-            <fieldset class="grupo">
-                <div class="campo">
-                    <legend>Conte-nos sobre sua experiência:</legend>
-                    <textarea name="experiencia" id="experiencia" cols="60" rows="10"></textarea>
-                </div>
-            </fieldset>
+
+            <div class="campo">
+                <legend>Conte-nos sobre sua experiência:</legend>
+                <textarea name="experiencia" id="experiencia" cols="60" rows="10"></textarea>
+            </div>
+
             <button type="submit" class="botao">Enviar</button>
         </form>
     </fieldset>
