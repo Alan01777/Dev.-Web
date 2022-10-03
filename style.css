@@ -8,67 +8,50 @@
     margin-bottom: 1%;
 }
 
-.check {
-    display: block;
-}
-
 fieldset {
     border: 0;
 }
 
 body {
+    justify-content: center;
+    font-size: 1em;
     background-color: #F0F8FF;
-    margin-left: 27%;
+    margin-left: 36%;
     margin-top: 2%;
     margin-bottom: 2%;
     justify-content: center;
-    line-height: 1.5;
+    line-height: 2;
     font-size: 1em;
     background-image: url(fundo.jpeg);
     background-size: cover;
     color: white;
-    text-shadow: 1px 1px 2px black;    
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 input,
 select,
 textarea,
 button {
-    border-radius: 2px;
-    box-shadow: 1px 1px black;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
 }
 
-.campo label {
-    margin-bottom: 0.2em;
-}
-
-input,
-select,
-textarea,
 button {
-    border-radius: 3px;
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
 }
-fieldset.grupo .campo {
-    float:  left;
-    margin-right: 1em;
-}
-.campo{
-    font-size: 1.2em;
-    display: block;
 
-}
-button{
-    width: 10em;  height: 2em;
-}
-input[type=text]{
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date] {
     display: block;
 }
-input[type=email]{
-    display: block;
-}
-input[type=password]{
-    display: block;
-}
-input[type=date]{
+
+.campo {
     display: block;
 }
