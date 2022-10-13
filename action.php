@@ -6,7 +6,7 @@ $matricula = $_POST['matricula'];
 $senha = $_POST['senha'];
 $curso = $_POST['curso'];
 $data = $_POST['data-nascimento'];
-$aplicacao = $_POST['are-aplicacao'];
+$aplicacao = $_POST['area-aplicacao'];
 
 
 
