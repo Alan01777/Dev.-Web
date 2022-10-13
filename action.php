@@ -31,5 +31,4 @@ if ($tecnologia !== null)
     for ($i = 0; $i < count($tecnologia); $i++)
         echo "{$tecnologia[$i]}<br>";
 echo "<p>Sua senioridade é: $senioridade<p>";
-echo "<p>Sua experiência informada foi:<p>";
-echo "<p>$experiecia<p>";
+echo "<p>Sua experiência informada foi: $experiencia<p>";
