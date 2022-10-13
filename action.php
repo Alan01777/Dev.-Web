@@ -9,6 +9,7 @@ $curso = $_POST['curso'];
 $data = $_POST['data-nascimento'];
 $aplicacao = $_POST['area-aplicacao'];
 $tecnologia = null;
+$experiencia = $_POST['experiencia'];
 
 //atribuindo valores de inputs do tipo "checkbox" a um vetor
 if(isset($_POST['tecnologia']))
@@ -28,5 +29,6 @@ echo "Sua area de aplicação é: $aplicacao<br>";
 echo "Suas tecnologias dominadas são:<br>";
 if ($tecnologia !== null)
     for ($i = 0; $i < count($tecnologia); $i++)
-        echo "{$tecnologia[$i]}<br>";
+        echo "{$tecnologia[$i]}, ";
 echo "Sua senioridade é: $senioridade";
+echo "Sua experiência informada foi: $experiencia";
