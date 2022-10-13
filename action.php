@@ -14,8 +14,7 @@ $tecnologia = null;
 if(isset($_POST['tecnologia']))
     $tecnologia = $_POST['tecnologia'];
 
-if(isset($_POST['Senioriadade']))
-    $senioridade = $_POST['senioridade'];
+$senioridade = $_POST['senioridade'];
 
 echo "Seu nome é: $nome<br>";
 echo "Seu email é: $email<br>";
