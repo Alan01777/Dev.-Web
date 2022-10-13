@@ -1,5 +1,6 @@
 <?php
 
+//atribuindo os valores dos inputs diversos a variaveis
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $matricula = $_POST['matricula'];
@@ -9,6 +10,7 @@ $data = $_POST['data-nascimento'];
 $aplicacao = $_POST['area-aplicacao'];
 $tecnologia = null;
 
+//atribuindo valores de inputs do tipo "checkbox" a um vetor
 if(isset($_POST['tecnologia']))
     $tecnologia = $_POST['tecnologia'];
 
@@ -20,6 +22,7 @@ echo "Seu curso é: $curso<br>";
 echo "Sua data de nascimento é: $data<br>";
 echo "Sua area de aplicação é: $aplicacao<br>";
 
+//imprimindo na tela os valores selecionados no input checkbox
 if ($tecnologia !== null)
     for ($i = 0; $i < count($tecnologia); $i++)
-        echo "<p>{$tecnologia[$i]}</p>";
+        echo "{$tecnologia[$i]}";
