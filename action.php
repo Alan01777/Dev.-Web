@@ -16,4 +16,4 @@ echo "Sua senha é: $senha<br>";
 echo "Sua matricula é: $matricula<br>";
 echo "Seu curso é: $curso<br>";
 echo "Sua data de nascimento é: $data<br>";
-echo "Sua area de aplicação é: $area<br>";
+echo "Sua area de aplicação é: $aplicacao<br>";
