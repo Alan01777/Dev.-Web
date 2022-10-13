@@ -17,18 +17,18 @@ if(isset($_POST['tecnologia']))
 
 $senioridade = $_POST['senioridade'];
 
-echo "Seu nome é: $nome<br>";
-echo "Seu email é: $email<br>";
-echo "Sua senha é: $senha<br>";
-echo "Sua matricula é: $matricula<br>";
-echo "Seu curso é: $curso<br>";
-echo "Sua data de nascimento é: $data<br>";
-echo "Sua area de aplicação é: $aplicacao<br>";
+echo "<p>Seu nome é: $nome<p>";
+echo "<p>Seu email é: $email<p>";
+echo "<p>Sua senha é: $senha<p>";
+echo "<p>Sua matricula é: $matricula<p>";
+echo "<p>Seu curso é: $curso<p>";
+echo "<p>Sua data de nascimento é: $data<p>";
+echo "<p>Sua area de aplicação é: $aplicacao<p>";
 
 //imprimindo na tela os valores selecionados no input checkbox
-echo "Suas tecnologias dominadas são:<br>";
+echo "<p>Suas tecnologias dominadas são:<p>";
 if ($tecnologia !== null)
     for ($i = 0; $i < count($tecnologia); $i++)
-        echo "{$tecnologia[$i]}, ";
-echo "Sua senioridade é: $senioridade";
-echo "Sua experiência informada foi: $experiencia";
+        echo "{$tecnologia[$i]}<br>";
+echo "<p>Sua senioridade é: $senioridade<p>";
+echo "<p>Sua experiência informada foi: $experiencia<p>";
