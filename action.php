@@ -1,6 +1,6 @@
 <?php
 
-//atribuindo os valores dos inputs de tipos diversos à variaveis
+// recebendo os dados do formulário html e atribuindo os valores dos inputs à variaveis
 $nome = $_POST['nome']; //tipo text
 $email = $_POST['email']; // tipo email
 $matricula = $_POST['matricula']; //tipo text
