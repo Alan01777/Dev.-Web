@@ -36,7 +36,7 @@ if(!empty($senha) && strlen($senha) >=10){ // verificando se a senha informada c
     echo "<p>Sua senha deve conter ao menos 10 caracteres!<p>";
 }
 
-if(!empty($matricula) && is_integer($matricula)){ // verificando se a matrícula informada é composta apenas de números "integers"
+if(!empty($matricula)){ // verificando se a matrícula informada é composta apenas de números "integers"
     echo "<p>Sua matricula é: $matricula<p>";
 } else{
     echo "<p>A matrícula deve conter apenas números!<p>";
